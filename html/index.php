@@ -253,7 +253,7 @@ ctx.stats = new Stats();
 ctx.running = true;
 ctx.frame = 1;
 logo = new Image();
-logo.src = 'https://labs.nikrowell.com/lightsandmotion/ultraviolet/images/logo.png';
+logo.src = 'https://d3ulwu8fab47va.cloudfront.net/media/favicon/default/favicon.ico';
 hue = new Oscillator({
 phase: Math.random() * Math.TWO_PI,
 amplitude: 85,

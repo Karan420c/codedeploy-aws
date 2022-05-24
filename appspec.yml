@@ -2,4 +2,4 @@ version: 0.0
 os: linux
 files:
   - source: /html/
-    destination: /var/www/mydomain/html
+    destination: /var/www/mydomain/html/

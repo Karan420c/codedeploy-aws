@@ -1,0 +1,21 @@
+Working models :-
+
+[Balancer]
+Port=9109
+Threads=50
+TS1=127.0.0.1;1;eg,ef,ei,ep,er,es,e[pl];
+TS2=172.16.1.96;1;e[bg],e[bn],e[cs],e[el],e[hr],e[hu];
+TS3=172.16.1.53;1;e[ko],e[lv],e[ms],e[nl],e[ro],e[ja];
+TS4=172.16.1.163;1;ef,e[sk],e[da],e[sv],e[tg],et,eu;
+
+
+
+Complete Models:- 
+
+[Balancer]
+Port=9109
+Threads=50
+TS1=127.0.0.1;1;e[zh-tw],e[zh-cn],e[he],e[hi],e[tg],e[da],e[nn],e[nl];
+TS2=172.16.1.96;1;e[ar],e[bg],e[bn],e[cs],e[el],e[et],e[fa],e[fi];
+TS3=172.16.1.53;1;e[hr],e[hu],e[ja],e[ko],e[lv],el,e[ms],e[nb],e[pl];
+TS4=172.16.1.163;1;ef,eg,ei,ep,er,es,et,eu,e[ro],e[sk],e[sr],e[sv];

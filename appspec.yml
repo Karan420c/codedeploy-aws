@@ -1,5 +1,5 @@
 version: 0.0
 os: linux
 files:
-  - source: /public
-    destination: /home/codedeploy/public
+  - source: /usr/local/pnts22.1/promtkernel.conf
+    destination: /usr/local/pnts22.1/

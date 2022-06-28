@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: promtkernel.conf
-    destination: /home/test/
+    destination: /usr/local/pnts22.1/
 hooks:
   BeforeInstall:
     - location: scripts/restart_server

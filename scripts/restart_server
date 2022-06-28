@@ -1,0 +1,5 @@
+#!/bin/bash
+systemctl restart pnts22.1-translator
+systemctl restart pnts22.1-balancer
+systemctl restart pnts22.1-dcs pnts22.1-managed 
+systemctl restart pnts22.1-nginx

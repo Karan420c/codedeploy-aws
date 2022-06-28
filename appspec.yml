@@ -2,4 +2,4 @@ version: 0.0
 os: linux
 files:
   - source: promtkernel.conf
-    destination: /usr/local/pnts22.1/
+    destination: /home/test/

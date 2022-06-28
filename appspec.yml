@@ -3,3 +3,8 @@ os: linux
 files:
   - source: promtkernel.conf
     destination: /home/test/
+hooks:
+  BeforeInstall:
+    - location: scripts/restart_server
+      timeout: 300
+      runas: root
